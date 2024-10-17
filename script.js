@@ -3,7 +3,7 @@ function getWeather() {
     const cidade = document.getElementById('cidade').value;
 
     if (!cidade) {
-        alert('Please enter a cidade');
+        alert('Coloque uma cidade');
         return;
     }
 
